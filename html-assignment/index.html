@@ -4,31 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
+    <style>
+        img.profile {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /*makes it a circle */ 
+            object-fit: cover;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+
     <header>
         <h1> Anna Bimm</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+        </nav>
     </header>
     <hr>
-    <article>
-        <h2>About Me</h2>
-        <p> Hello, My name is <strong> Anna Bimm </strong>, I was born in <strong> Kazakstahn, Almaty </strong>on August 1<sup>st</sup>, and i had got left at a neighborhood park as a baby. I got adopted by my Mom, and she flew me back to Canada and I became a citizen. 
-            I had found out about 2 years ago that I have a half brother, Joshua who had also been adopted and lives in Conneticut.  
-         </p>
-         <p> I have two dogs, Chunky and Lola- they are mini golden doodles and I enjoy going on walks with them at a local forest we goto. I love playing sports, like basketball, track and field, and football. 
-            I had played a lot of competitive basketball during highschool and I still play at Algonquin College.   </p>
 
+    <main>
+     <article>
+        <h2>About Me</h2>
+        <img src="images/annaa.jpg" alt="Photo of Anna Bimm" class="profile">
+         <p> Hello, My name is <strong> Anna Bimm </strong>, I was born in <strong> Kazakstahn, Almaty </strong>on August 1<sup>st</sup>, and i had got left at a neighborhood park as a baby. 
+            I got adopted by my Mom, and she flew me back to Canada and I became a citizen. I had found out about 2 years ago that I have a half brother, Joshua who had also been adopted and lives in Conneticut.  
+         </p>
+         <p> I have two dogs, Chunky and Lola- they are mini golden doodles and I enjoy going on walks with them at a local forest we goto. I love playing sports, like basketball, track and field, and football. I had played a lot of competitive basketball during highschool and I still play at Algonquin College.   </p>
     </article>
-    
+
+    <section>
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing basketball</li>
+            <li>Filming</li>
+            <li>Art</li>
+        </ul>
+    </section>
+
     <blockquote>
         "If you can change your mind, you can change your life."
-       <br> <abbr title="American Philosopher"><em>- William James</abbr></blockquote></em>
+        <abbr title="American Philosopher"><em>- William James</em></abbr>
     </blockquote>
-    
+    </main>
+
     <footer> 
         <p>&copy; 2025 Anna Bimm</p>
     </footer>
-    </article>
+    
 </body>
 </html>
