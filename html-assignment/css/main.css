@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+}
+
+header,footer {
+    background-color: rgb(134, 196, 255);
+}
+
+.site-title {
+    color:rgb(255, 254, 255);
+}
+#my-image {
+    box-shadow: 0 0 20px 4px  rgb(143, 218, 251);
+}
+ul{
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color:rgb(255, 250, 192);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(255, 168, 93);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px
+}
+
+nav a:hover, nav a:focus {
+    background-color: rgb(250, 120, 27);
+}
+
+img.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
